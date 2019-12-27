@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Window Testing</title>
+    </head>
+    <body>
+        
+        <button id="myWindow">Click</button>
+        
+        <script type="text/javascript">
+        
+        document.querySelector('#myWindow').addEventListener("click",function(){
+        let a=window.open(null,"","height=800px,width=700px,left=600%,top=100px");
+        a.document.write("<h3 style='text-align:center;'>Mamun Khan.</h3>");
+});
+        
+        
+        
+        </script>
+    </body>
+</html>
